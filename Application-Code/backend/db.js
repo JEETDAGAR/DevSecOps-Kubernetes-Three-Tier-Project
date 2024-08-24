@@ -15,7 +15,7 @@ module.exports = async () => {
            process.env.MONGO_CONN_STR,
            connectionParams
         );
-        console.log("Connected to database.");
+        console.log("Connection to database successfull.");
     } catch (error) {
         console.log("Could not connect to database.", error);
     }
