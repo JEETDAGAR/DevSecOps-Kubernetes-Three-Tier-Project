@@ -29,6 +29,6 @@ spec:
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND_URL
-            value: "http://jeetdomain.shop/api/tasks"
+            value: "https://jeetdomain.shop/api/tasks"
         ports:
         - containerPort: 3000
