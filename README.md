@@ -53,7 +53,7 @@ To get started with this project:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/microservices-project.git
+git clone https://github.com/JEETDAGAR/DevSecOps-Kubernetes-Three-Tier-Project.git
 
 # Navigate to the project directory
 cd DevSecOps-Kubernetes-Three-Tier-Project
