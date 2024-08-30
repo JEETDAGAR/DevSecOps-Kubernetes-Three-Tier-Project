@@ -65,6 +65,6 @@ If you find any issues or have suggestions for improvements, feel free to open a
 
 ## **Connect**
 
-If you have any questions or want to discuss Docker, Node.js, or anything else, feel free to reach out!
+If you have any questions or want to discuss Docker, Kubernetes, or anything else, feel free to reach out!
 
 **LinkedIn**: https://www.linkedin.com/in/jeet-dagar-0463621b7/
