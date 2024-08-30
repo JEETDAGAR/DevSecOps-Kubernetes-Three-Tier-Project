@@ -1,49 +1,70 @@
-# DevSecOps-Kubernetes-Three-Tier-Project
+# Microservices Architecture Project 🚀
 
-Embark on a Microservices Journey: Cloud-Native Application Deployment 🚀
-Dive into our cutting-edge repository showcasing a Microservices Architecture implementation. This project leverages state-of-the-art technologies and deploys on a robust cloud infrastructure, demonstrating best practices in modern DevOps and cloud-native development.
-Navigate the Project
+Welcome to our cutting-edge Microservices Architecture project! This repository showcases a modern approach to building scalable, cloud-native applications using microservices principles.
 
-Microservices Codebase
-Automated Build Pipelines
-Cloud Resource Blueprints
-Orchestration Configurations
-Project Insights
 
-Microservices Codebase
-Uncover the intricacies of our microservices in the Microservices-Source directory. Each service is a self-contained unit, ready for individual scaling and deployment.
-Automated Build Pipelines
-The CI-Pipelines folder houses our continuous integration scripts. These pipelines ensure code quality, run tests, and prepare our services for deployment with minimal human intervention.
-Cloud Resource Blueprints
-Dive into Infrastructure-Templates to explore our infrastructure-as-code solutions. These blueprints allow for consistent and repeatable cloud environment setups across different stages of development.
-Orchestration Configurations
-Within Orchestration-Manifests, you'll find the configuration files for our container orchestration platform. These manifests define how our microservices are deployed, scaled, and interconnected in the cloud environment.
-Project Insights
-🛠️ Technology Stack:
+## Table of Contents
 
-Cloud-agnostic infrastructure provisioning tools
-Container orchestration for dynamic scaling
-Continuous integration and deployment automation
-Distributed tracing and centralized logging
-Service mesh for advanced networking capabilities
+- [Application Code](#application-code)
+- [Jenkins Pipeline Code](#jenkins-pipeline-code)
+- [Jenkins Server Terraform](#jenkins-server-terraform)
+- [Kubernetes Manifests Files](#kubernetes-manifests-files)
+- [Project Details](#project-details)
+  - [Tools Explored](#tools-explored)
+  - [High-Level Overview](#high-level-overview)
 
-🌐 Architectural Overview:
+## Application Code
 
-Modular microservices designed for scalability
-Event-driven architecture enabling loose coupling
-Serverless components for cost-effective, on-demand compute
-Multi-region deployment for high availability
-Zero-trust security model implementation
+The `Application-Code` directory contains the source code for the Three-Tier Web Application. Dive into this directory to explore the frontend and backend implementations.
 
-🚀 Learning Journey:
-This project encapsulates the entire lifecycle of cloud-native applications. From local development environments to production-grade, fault-tolerant systems, we cover it all. Experience the power of DevOps practices, immutable infrastructure, and self-healing systems.
-Quickstart Guide
-Embark on your microservices adventure by following our comprehensive guide in the quickstart directory. It covers:
+## Jenkins Pipeline Code
 
-Setting up your local development environment
-Provisioning your cloud playground
-Deploying your first microservice
-Implementing continuous deployment
-Monitoring and troubleshooting in production
+In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. These scripts automate the CI/CD process, ensuring smooth integration and deployment of your application.
 
-Innovate Fearlessly! 🚀
+## Jenkins Server Terraform
+
+Explore the `Jenkins-Server-TF` directory to find Terraform scripts for setting up the Jenkins Server on AWS. These scripts simplify the infrastructure provisioning process.
+
+## Kubernetes Manifests Files
+
+The `Kubernetes-Manifests-Files` directory holds Kubernetes manifests for deploying your application on AWS EKS. Understand and customize these files to suit your project needs.
+
+## Project Details
+
+### 🛠️ Tools Explored:
+
+- **Terraform & AWS CLI**: For AWS infrastructure provisioning.
+- **Jenkins, Sonarqube, Terraform, Kubectl**: For comprehensive CI/CD setup.
+- **Helm, Prometheus, and Grafana**: For efficient monitoring.
+- **ArgoCD**: For implementing GitOps practices.
+
+### 🚢 High-Level Overview:
+
+- **IAM User setup & Terraform magic on AWS**: Secure IAM user configurations and automated infrastructure deployment.
+- **Jenkins deployment with AWS integration**: Seamless CI/CD with Jenkins configured to work with AWS.
+- **EKS Cluster creation & Load Balancer configuration**: Kubernetes cluster setup on AWS and application load balancer configurations.
+- **Private ECR repositories for secure image management**: Managed Docker image repositories on AWS.
+- **Helm charts for efficient monitoring setup**: Simplified monitoring deployments using Helm.
+- **GitOps with ArgoCD - the cherry on top!**: Leverage ArgoCD for automated deployments and GitOps workflows.
+
+## Getting Started
+
+To get started with this project:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/microservices-project.git
+
+# Navigate to the project directory
+cd DevSecOps-Kubernetes-Three-Tier-Project
+```
+
+## **Contributing**
+
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. **Contributions are always welcome!**
+
+## **Connect**
+
+If you have any questions or want to discuss Docker, Node.js, or anything else, feel free to reach out!
+
+**LinkedIn**: https://www.linkedin.com/in/jeet-dagar-0463621b7/
